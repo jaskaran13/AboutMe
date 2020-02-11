@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            style="@style/NameStyle"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/nicname_edit"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/what_is_your_nickname"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName|textImeMultiLine" />
+
+        <Button
+            android:id="@+id/done_button"
+            style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/top_margin"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/done"
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/nickname_text"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="@android:color/black"
+            android:textColorLink="@color/colorPrimaryDark"
+            android:textCursorDrawable="@android:color/holo_green_light"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/star_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_margin"
+            android:contentDescription="@string/yellow_star"
+            android:paddingTop="@dimen/small_padding"
+            app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    </LinearLayout>
+</layout>

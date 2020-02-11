@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">Jaskaran Singh</string>
+    <string name="yellow_star">Yellow Star</string>
+    <string name="bio">
+        \nHi my name is jaskaran
+        \n\nhow are you
+        \ni am file
+        \nso tell be about yourself.
+       \n but,Do not worry this app is all about you!
+        \nyou!
+         \nyour hobbies!
+         \nyour behaviour!
+         \n \nyour relationship!
+        \njust everything.....
+        \nHi my name is jaskaran
+        \n\nhow are you
+        \ni am file
+        \nso tell be about yourself.
+       \n but,Do not worry this app is all about you!
+        \nyou!
+         \nyour hobbies!
+         \nyour behaviour!
+         \n \nyour relationship!
+        \njust everything.....
+
+    </string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
+    <string name="done">done</string>
+</resources>
